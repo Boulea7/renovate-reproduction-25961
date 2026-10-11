@@ -1,0 +1,10 @@
+{
+  "enabledManagers": ["maven"],
+  "constraintsFiltering": "strict",
+  "packageRules": [
+    {
+      "matchPackageNames": ["org.springframework.boot:spring-boot-starter-parent"],
+      "allowedVersions": "[2.7.17,3.0.0]"
+    }
+  ]
+}
